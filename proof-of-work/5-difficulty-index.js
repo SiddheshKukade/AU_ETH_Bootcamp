@@ -7,7 +7,7 @@ const mempool = [];
 const blocks = [];
 
 function addTransaction(transaction) {
-    // TODO: add transaction to mempool
+    // TODO: add transaction to mempoo  l
     mempool.push(transaction);
 }
 
