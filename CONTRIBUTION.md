@@ -4,7 +4,7 @@
 
 -   [Alchemy University Bootcamp Student or Instructor](https://university.alchemy.com/)
 
-## 💥 How to Contribute
+## How to Contribute
 
 -   Take a look at the existing [Issues](https://github.com/SiddheshKukade/AU_ETH_Bootcamp/issues) or [create a new issue](https://github.com/SiddheshKukade/AU_ETH_Bootcamp/issues/new/)!
 -   [Fork the Repo](https://github.com/SiddheshKukade/AU_ETH_Bootcamp). Then, create a branch for any issue that you are working on. Finally, commit your work.
