@@ -20,9 +20,11 @@ function App() {
                 setPrivateKey={setPrivateKey}
             />
             <Transfer
+                fromAddress={address}
                 setBalance={setBalance}
-                address={address}
                 privateKey={privateKey}
+                setPrivateKey={setPrivateKey}
+                setAddress={setAddress}
             />
             <Accounts />
         </div>

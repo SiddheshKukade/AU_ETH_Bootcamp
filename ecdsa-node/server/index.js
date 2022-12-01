@@ -6,7 +6,7 @@ const port = 3042;
 const secp = require("ethereum-cryptography/secp256k1");
 const { keccak256 } = require("ethereum-cryptography/keccak");
 const { toHex } = require("ethereum-cryptography/utils");
-
+let addressToNonceServer = {};
 app.use(cors());
 app.use(express.json());
 
@@ -51,9 +51,10 @@ app.get("/accounts", (req, res) => {
 });
 
 app.post("/send", (req, res) => {
-    const { signature, recoveryBit, amount, recipient } = req.body;
+    const { signature, recoveryBit, amount, recipient, nextNonce } = req.body;
     const uint8ArrayMsg = Uint8Array.from([amount, recipient]);
     const messageHash = toHex(uint8ArrayMsg);
+
     // recover public key from signature
 
     const publicKey = secp.recoverPublicKey(
@@ -66,21 +67,34 @@ app.post("/send", (req, res) => {
     const publicKeyHash = toHex(keccak256(publicKey));
     // console.log("Public key", publicKeyHash);
     const sender = `0x${publicKeyHash.slice(-20)}`; // 20 bytes address
-    console.log(sender);
     // console.log("Sender = ", sender);
     //Verification
     const isValidSign = secp.verify(signature, messageHash, toHex(publicKey));
-
+    const doesAddressExists = !sender in addressToNonceServer;
+    if (!doesAddressExists) {
+        addressToNonceServer = { ...addressToNonceServer, [sender]: 0 };
+    }
+    let isNonceValid = nextNonce === addressToNonceServer[sender] + 1;
     setInitialBalance(sender);
     setInitialBalance(recipient);
     if (balances[sender] < amount) {
         res.status(400).send({ message: "Not enough funds!" });
     } else if (!isValidSign) {
         res.status(400).send({ message: "Invalid Signature" });
+    } else if (!isNonceValid) {
+        res.status(400).send({ message: "Invalid Nonce" });
     } else {
         balances[sender] -= amount;
         balances[recipient] += amount;
-        res.send({ balance: balances[sender], sender: sender });
+        addressToNonceServer = {
+            ...addressToNonceServer,
+            [sender]: addressToNonceServer[sender] + 1,
+        };
+        res.send({
+            balance: balances[sender],
+            sender: sender,
+            nonceFromServer: addressToNonceServer[sender],
+        });
     }
 });
 
