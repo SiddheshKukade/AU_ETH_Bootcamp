@@ -19,7 +19,7 @@ Contains answers for Ethereum Developer Bootcamp provided by [Alchemy University
   <tbody>
     <tr>
       <td align="center"><a href="https://siddheshkukade.com"><img src="https://avatars.githubusercontent.com/u/65951872?v=4?s=100" width="100px;" alt="Siddhesh Bhupendra Kuakde"/><br /><sub><b>Siddhesh Bhupendra Kuakde</b></sub></a><br /><a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=SiddheshKukade" title="Code">💻</a></td>
-      <td align="center"><a href="https://github.com/jamaltheatlantean"><img src="https://avatars.githubusercontent.com/u/101756505?v=4?s=100" width="100px;" alt="Gabriel Isobara"/><br /><sub><b>Gabriel Isobara</b></sub></a><br /><a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=jamaltheatlantean" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/jamaltheatlantean"><img src="https://avatars.githubusercontent.com/u/101756505?v=4?s=100" width="100px;" alt="Gabriel Isobara"/><br /><sub><b>Gabriel Isobara</b></sub></a><br /><a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=jamaltheatlantean" title="Code">💻</a> <a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=jamaltheatlantean" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
