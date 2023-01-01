@@ -4,7 +4,7 @@ const SHA256 = require("crypto-js/sha256");
 class Blockchain {
     constructor() {
         const block = new Block("Zibberish");
-        this.chain = [block]; // genisis block
+        this.chain = [block]; // genesis block
     }
     addBlock(newBlock) {
         this.chain.push(newBlock);
