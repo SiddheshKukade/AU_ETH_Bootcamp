@@ -1,5 +1,11 @@
 <div align="center">
+ 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+ 
 
+ 
 <img  src="https://university.alchemy.com/assets/dashboard_logo.75bc75d8.svg" height="200px" width="200px" />
 
 </div>
@@ -18,8 +24,8 @@ Contains answers for Ethereum Developer Bootcamp provided by [Alchemy University
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://github.com/pokhrelanmol"><img src="https://avatars.githubusercontent.com/u/75737628?v=4?s=100" width="100px;" alt="anmol pokhrel"/><br /><sub><b>anmol pokhrel</b></sub></a><br /><a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=pokhrelanmol" title="Code">💻</a></td>
       <td align="center"><a href="https://siddheshkukade.com"><img src="https://avatars.githubusercontent.com/u/65951872?v=4?s=100" width="100px;" alt="Siddhesh Bhupendra Kuakde"/><br /><sub><b>Siddhesh Bhupendra Kuakde</b></sub></a><br /><a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=SiddheshKukade" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/pokhrelanmol"><img src="https://avatars.githubusercontent.com/u/75737628?v=4?s=100" width="100px;" alt="anmol pokhrel"/><br /><sub><b>anmol pokhrel</b></sub></a><br /><a href="https://github.com/SiddheshKukade/AU_ETH_Bootcamp/commits?author=pokhrelanmol" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
