@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.block-data {
+    @apply flex gap-20 border-b justify-between;
+}

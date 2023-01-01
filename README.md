@@ -1,14 +1,20 @@
 <div align="center">
+ 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+ 
+
+ 
 <img  src="https://university.alchemy.com/assets/dashboard_logo.75bc75d8.svg" height="200px" width="200px" />
+
 </div>
 
 # Alchemy University Ethereum Developer Bootcamp answers
-Contains answers for Ethereum Developer Bootcamp provided by  [Alchemy University](https://university.alchemy.com/). Feel Free to contribute your answers here and help each other
 
-#### Note : This Readme will soon be updated with contributing guide 
+Contains answers for Ethereum Developer Bootcamp provided by [Alchemy University](https://university.alchemy.com/). Feel Free to contribute your answers here and help each other
+
+## Want to Contribute? See [Contribution guidelines](https://github.com/pokhrelanmol/AU_ETH_Bootcamp/blob/anmol/CONTRIBUTION.md)
 
 ## Contributors
 
@@ -36,7 +42,8 @@ Contains answers for Ethereum Developer Bootcamp provided by  [Alchemy Universit
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
