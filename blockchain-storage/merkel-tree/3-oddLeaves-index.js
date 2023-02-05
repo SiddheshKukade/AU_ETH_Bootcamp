@@ -9,7 +9,7 @@ class MerkleTree {
         while (currentLayer.length > 1) {
             let newLayer = [];
             let isOdd = currentLayer.length % 2 !== 0;
-            let loopRange = isOddLeaf
+            let loopRange = isOdd
                 ? currentLayer.length - 1
                 : currentLayer.length;
 
